@@ -11,7 +11,7 @@ android {
         targetSdk 33
         ndk { abiFilters "armeabi-v7a" }
         python {
-            buildPython "C:/Users/FongMi.DIREK/Anaconda3/python.exe"
+            buildPython "D:/Python/38/python.exe"
             pip {
                 install "pycrypto"
                 install "requests"

@@ -104,7 +104,7 @@ public class Config {
 
     public static Config vod() {
         Config item = AppDatabase.get().getConfigDao().find(0);
-        return item == null ? create("", 0) : item;
+        return item == null ? create("http://xn--4bra.live/%E7%8C%AB", 0) : item;
     }
 
     public static Config live() {

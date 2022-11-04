@@ -1,4 +1,4 @@
-move .\leanbackJava\release\*.apk .\
-move .\leanbackPython\release\*.apk .\
-rmdir /s /q .\leanbackJava
-rmdir /s /q .\leanbackPython
+move ..\app\leanbackJava\release\*.apk .\
+move ..\app\leanbackPython\release\*.apk .\
+rmdir /s /q ..\app\leanbackJava
+rmdir /s /q ..\app\leanbackPython
